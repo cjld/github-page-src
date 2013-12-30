@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        pandoc 使用 - 
+      
+      CJLD
+    </title>
+    
+    <meta name="author" content="cjld">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="/assets/themes/hooligan/css-social-buttons/css/zocial.stripped.css">
+    <link href="/assets/themes/hooligan/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/darkstrap.css" rel="stylesheet" type="text/css" media="all">    
+    <link href="/assets/themes/hooligan/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/mystyle.css" rel="stylesheet" type="text/css" media="all">    
+    <link href="/assets/themes/hooligan/google-code-prettify/doxy.css" rel="stylesheet" type="text/css" media="all">
+
+    
+    <!-- fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>      
+
+
+          <a class="brand" href="/">CJLD</a>
+
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              
+              
+              
+
+
+  
+    
+      
+      	
+      	<li><a href="/about.html">关于</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">文章</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/rss.xml">订阅</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/sand.html">零散</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">标签</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+
+
+
+            </ul>
+            <ul class="nav pull-right social visible-desktop">
+              <li class="divider-vertical"></li>
+              
+                <li>
+                  <a href="https://github.com/cjld" class="zocial github icon" target="_blank">
+                    <span class="hidden-desktop">Github</span>
+                  </a>
+                </li>
+              
+                  
+                                        
+                         
+                                  
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        
+<div class="page-header">
+  <h1 id="mainTitle">
+    pandoc 使用 
+    
+  </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <div id="content">
+      <h3 id="testpandoc" style="margin-left: 10px">&#35797;&#35797; pandoc</h3>
+<p><span class="math">\[ e^{i\pi} + 1 = 0 \]</span></p>
+<p><a href="#testpandoc">goto title</a></p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;&#34892;&#21306;&#22359;</p>
+<p>Term 1</p>
+<p>: Definition 1</p>
+<p>Term 2 with <em>inline markup</em></p>
+<p>: Definition 2</p>
+<pre><code>    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.</code></pre>
+<dl>
+<dt>Term 1</dt>
+<dd>Definition 1
+</dd>
+<dt>Term 2</dt>
+<dd>Definition 2a
+</dd>
+<dd>Definition 2b
+</dd>
+</dl>
+<ol style="list-style-type: example">
+<li>My first example will be numbered (1).</li>
+<li>My second example will be numbered (2).</li>
+</ol>
+<p>Explanation of examples.</p>
+<ol start="3" style="list-style-type: example">
+<li><p>My third example will be numbered (3).</p></li>
+<li><p>This is a good example.</p></li>
+</ol>
+<p>As (4) illustrates, &#8230;</p>
+<table>
+<caption>&#26399;&#26411;&#32771;&#35797;&#26102;&#38388;</caption>
+<thead>
+<tr class="header">
+<th align="center">&#32771;&#35797;&#39033;&#30446;</th>
+<th align="center">&#26102;&#38388;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">&#22797;&#21464; &#20989;&#25968;</td>
+<td align="center">1.8</td>
+</tr>
+<tr class="even">
+<td align="center">&#30005;&#23376;&#23398;&#22522;&#30784;</td>
+<td align="center">1.11</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Demonstration of simple table syntax.</caption>
+<thead>
+<tr class="header">
+<th align="right">Right</th>
+<th align="left">Left</th>
+<th align="center">Center</th>
+<th align="left">Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">12</td>
+<td align="left">12</td>
+<td align="center">12</td>
+<td align="left">12</td>
+</tr>
+<tr class="even">
+<td align="right">123</td>
+<td align="left">123</td>
+<td align="center">123</td>
+<td align="left">123</td>
+</tr>
+<tr class="odd">
+<td align="right">1</td>
+<td align="left">1</td>
+<td align="center">1</td>
+<td align="left">1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr class="odd">
+<td align="right">12</td>
+<td align="left">12</td>
+<td align="center">12</td>
+<td align="right">12</td>
+</tr>
+<tr class="even">
+<td align="right">123</td>
+<td align="left">123</td>
+<td align="center">123</td>
+<td align="right">123</td>
+</tr>
+<tr class="odd">
+<td align="right">1</td>
+<td align="left">1</td>
+<td align="center">1</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Here&#8217;s the caption. It, too, may span multiple lines.</caption>
+<col width="16%" />
+<col width="11%" />
+<col width="22%" />
+<col width="34%" />
+<thead>
+<tr class="header">
+<th align="center">Centered Header</th>
+<th align="left">Default Aligned</th>
+<th align="right">Right Aligned</th>
+<th align="left">Left Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">First</td>
+<td align="left">row</td>
+<td align="right">12.0</td>
+<td align="left">Example of a row that spans multiple lines.</td>
+</tr>
+<tr class="even">
+<td align="center">Second</td>
+<td align="left">row</td>
+<td align="right">5.0</td>
+<td align="left">Here&#8217;s another one. Note the blank line between rows.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Here&#8217;s a multiline table without headers.</caption>
+<col width="16%" />
+<col width="11%" />
+<col width="22%" />
+<col width="34%" />
+<tbody>
+<tr class="odd">
+<td align="center">First</td>
+<td align="left">row</td>
+<td align="right">12.0</td>
+<td align="left">Example of a row that spans multiple lines.</td>
+</tr>
+<tr class="even">
+<td align="center">Second</td>
+<td align="left">row</td>
+<td align="right">5.0</td>
+<td align="left">Here&#8217;s another one. Note the blank line between rows.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Sample grid table.</caption>
+<thead>
+<tr class="header">
+<th align="right">Right</th>
+<th align="left">Left</th>
+<th align="left">Default</th>
+<th align="center">Center</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">12</td>
+<td align="left">12</td>
+<td align="left">12</td>
+<td align="center">12</td>
+</tr>
+<tr class="even">
+<td align="right">123</td>
+<td align="left">123</td>
+<td align="left">123</td>
+<td align="center">123</td>
+</tr>
+<tr class="odd">
+<td align="right">11111111111111111111111111111</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="center">1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Demonstration of simple table syntax.</caption>
+<thead>
+<tr class="header">
+<th align="right">fruit</th>
+<th align="right">price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">apple</td>
+<td align="right">2.05</td>
+</tr>
+<tr class="even">
+<td align="right">pear</td>
+<td align="right">1.37</td>
+</tr>
+<tr class="odd">
+<td align="right">orange</td>
+<td align="right">3.09</td>
+</tr>
+</tbody>
+</table>
+<p>Blah blah <span class="citation">[see @doe99, pp. 33-35; also @smith04, ch. 1]</span>.</p>
+<p>Blah blah <span class="citation">[@doe99, pp. 33-35, 38-39 and *passim*]</span>.</p>
+<p>Blah blah <span class="citation">[@smith04; @doe99]</span>.</p>
+
+    </div>
+    <hr>
+    <div class="pagination btn-group">
+      
+        <a class="btn prev" href="/2013/12/25/cghwreport" title="图形学大作业文档">&larr; Previous</a>
+      
+        <a class="btn" href="/archive.html">Archive</a>
+      
+        <a class="btn next disabled">Next &rarr;</a>
+      
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'cjldblog'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <section>
+    <h3><i class="icon-calendar"></i>Published</h3>
+      <div class="date"><span style="margin-left: 20px">30 December 2013</span></div>
+    </section>
+         
+    
+      <section id="tags_box">
+        <h3><i class="icon-tags"></i>Tags</h3>
+        <ul class="tag_box" style="margin-left: 20px">
+          
+          
+
+
+  
+     
+    	<li><a href="/tags.html#Pandoc-ref">Pandoc <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#Markdown-ref">Markdown <span>3</span></a></li>
+    
+  
+
+
+
+        </ul>
+      </section>
+       
+      <section id="contents">
+        <h3><i class="icon-th-list"></i>Contents</h3>
+        <div id="content_box">
+        </div>
+      </section>
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; 2013 cjld
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
+        </p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/themes/hooligan/js/jquery.min.js"><\/script>')</script>
+    <script type="text/javascript" src="/assets/themes/hooligan/js/gen_content.js"></script>
+    <script src="/assets/themes/hooligan/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/themes/hooligan/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+           $("pre").addClass("prettyprint");
+           prettyPrint();
+      })
+    </script>
+    
+
+    
+  </body>
+</html>
+
