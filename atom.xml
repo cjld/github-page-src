@@ -4,7 +4,7 @@
  <title>CJLD</title>
  <link href="http://cjld.github.io/" rel="self"/>
  <link href="http://cjld.github.io"/>
- <updated>2013-12-31T01:42:12+08:00</updated>
+ <updated>2013-12-31T02:10:18+08:00</updated>
  <id>http://cjld.github.io</id>
  <author>
    <name>cjld</name>
@@ -13,41 +13,21 @@
 
  
  <entry>
-   <title>pandoc 使用</title>
+   <title>Blog 折腾</title>
    <link href="http://cjld.github.io/2013/12/30/pandoctest"/>
    <updated>2013-12-30T00:00:00+08:00</updated>
    <id>http://cjld.github.io/2013/12/30/pandoctest</id>
-   <content type="html">&lt;h3 id=&quot;testpandoc&quot; style=&quot;margin-left: 10px&quot;&gt;&amp;#35797;&amp;#35797; pandoc&lt;/h3&gt;
+   <content type="html">&lt;p&gt;&amp;#32771;&amp;#35797;&amp;#21608;&amp;#19981;&amp;#22909;&amp;#22909;&amp;#22797;&amp;#20064;&amp;#36824;&amp;#22312;&amp;#20316;&amp;#27515;&amp;#20081;&amp;#25240;&amp;#33150;&amp;#8230;&amp;#8230;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;&amp;#35797;&amp;#19968;&amp;#19979;&amp;#20844;&amp;#24335;&quot;&gt;&amp;#35797;&amp;#19968;&amp;#19979;&amp;#20844;&amp;#24335;&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&quot;math&quot;&gt;\[ e^{i\pi} + 1 = 0 \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#testpandoc&quot;&gt;goto title&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#35797;&amp;#19968;&amp;#19979;-pandoc&quot;&gt;&amp;#35797;&amp;#19968;&amp;#19979; Pandoc&lt;/h2&gt;
+&lt;h3 id=&quot;&amp;#34892;&amp;#21306;&amp;#22359;&quot;&gt;&amp;#34892;&amp;#21306;&amp;#22359;&lt;/h3&gt;
+&lt;p&gt;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#21487;&amp;#20197;&amp;#19981;&amp;#21534;&amp;#34892;&amp;#39318;&amp;#31354;&amp;#26684;&amp;#12290;&lt;/p&gt;
 &lt;p&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&amp;#34892;&amp;#21306;&amp;#22359;&lt;/p&gt;
-&lt;p&gt;Term 1&lt;/p&gt;
-&lt;p&gt;: Definition 1&lt;/p&gt;
-&lt;p&gt;Term 2 with &lt;em&gt;inline markup&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;: Definition 2&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.&lt;/code&gt;&lt;/pre&gt;
-&lt;dl&gt;
-&lt;dt&gt;Term 1&lt;/dt&gt;
-&lt;dd&gt;Definition 1
-&lt;/dd&gt;
-&lt;dt&gt;Term 2&lt;/dt&gt;
-&lt;dd&gt;Definition 2a
-&lt;/dd&gt;
-&lt;dd&gt;Definition 2b
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;ol style=&quot;list-style-type: example&quot;&gt;
-&lt;li&gt;My first example will be numbered (1).&lt;/li&gt;
-&lt;li&gt;My second example will be numbered (2).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Explanation of examples.&lt;/p&gt;
-&lt;ol start=&quot;3&quot; style=&quot;list-style-type: example&quot;&gt;
-&lt;li&gt;&lt;p&gt;My third example will be numbered (3).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;This is a good example.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;As (4) illustrates, &amp;#8230;&lt;/p&gt;
+&lt;h3 id=&quot;&amp;#34920;&amp;#26684;&quot;&gt;&amp;#34920;&amp;#26684;&lt;/h3&gt;
+&lt;p&gt;&amp;#25240;&amp;#33150; pandoc &amp;#20027;&amp;#35201;&amp;#23601;&amp;#20026;&amp;#20102;&amp;#36825;&amp;#20010;&amp;#34920;&amp;#26684;&lt;/p&gt;
+&lt;p&gt;&amp;#23665;&amp;#23528; IOS &amp;#25153;&amp;#24179;&amp;#21270;&amp;#22823;&amp;#22278;&amp;#35282;&amp;#39118;&amp;#26684;&lt;/p&gt;
 &lt;table&gt;
 &lt;caption&gt;&amp;#26399;&amp;#26411;&amp;#32771;&amp;#35797;&amp;#26102;&amp;#38388;&lt;/caption&gt;
 &lt;thead&gt;
@@ -58,12 +38,16 @@ Third paragraph of definition 2.&lt;/code&gt;&lt;/pre&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&quot;odd&quot;&gt;
-&lt;td align=&quot;center&quot;&gt;&amp;#22797;&amp;#21464; &amp;#20989;&amp;#25968;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#22797;&amp;#21464;&amp;#20989;&amp;#25968;&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;1.8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;even&quot;&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#22823;&amp;#29289;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;1.10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;odd&quot;&gt;
 &lt;td align=&quot;center&quot;&gt;&amp;#30005;&amp;#23376;&amp;#23398;&amp;#22522;&amp;#30784;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.11&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;1.16&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -224,9 +208,8 @@ Third paragraph of definition 2.&lt;/code&gt;&lt;/pre&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Blah blah &lt;span class=&quot;citation&quot;&gt;[see @doe99, pp. 33-35; also @smith04, ch. 1]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Blah blah &lt;span class=&quot;citation&quot;&gt;[@doe99, pp. 33-35, 38-39 and *passim*]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Blah blah &lt;span class=&quot;citation&quot;&gt;[@smith04; @doe99]&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;js-&amp;#20889;&amp;#20102;&amp;#20010;&amp;#30446;&amp;#24405;&quot;&gt;js &amp;#20889;&amp;#20102;&amp;#20010;&amp;#30446;&amp;#24405;&lt;/h2&gt;
+&lt;p&gt;&amp;#30475;&amp;#36215;&amp;#26469;&amp;#19981;&amp;#38169;&amp;#65292;&amp;#33258;&amp;#21160;&amp;#25235;&amp;#25991;&amp;#20013;&amp;#30340; h &amp;#26631;&amp;#31614;&amp;#65292;&amp;#36824;&amp;#26377;&amp;#38543;&amp;#28378;&amp;#21160;&amp;#22266;&amp;#23450; .&lt;/p&gt;
 </content>
  </entry>
  
